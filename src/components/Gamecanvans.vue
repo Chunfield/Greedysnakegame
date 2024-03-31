@@ -52,11 +52,11 @@ li{
     list-style-type: none;
     height: 20px;
     width: 20px;
-    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+    
 }
 .snakehead::before{
 content: "";
-display: block;/*伪类不是块元素*/
+display: block;
 width: 20px;
 height: 20px;
 background-color: rgb(226, 59, 59);
